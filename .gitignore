@@ -1,0 +1,5 @@
+.DS_STORE
+.artifact-output/
+node_modules/
+dist/
+public/

@@ -1,0 +1,22 @@
+{
+ 	"artifactStructure": {
+   		"assets": [
+      		{
+        		"root": "assets"
+      		}
+    	],
+		"reactTemplates": [
+	    	{
+	    		"root": "dist/templates",
+	    		"pattern": "*.js"
+	    	}
+		]
+ 	},
+  	"buildArtifacts": {
+    	"buildCmd": "npm run build"
+  	},
+  	"livePreview": {
+    	"serveSetupCmd": ":",
+    	"serve_cmd": "echo asdf"
+  	}
+}
