@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Template, TemplateConfig } from "../../types/types";
+import { renderToStaticMarkup } from "react-dom/server";
 
 export const config: TemplateConfig = {
   hydrate: false,
@@ -16,7 +17,7 @@ type PageData = {
 
 export const getUrl  = (data: PageData) => `location-${data.id}`;
 
-const page: Template = ({
+const Page: Template = ({
   data,
 }: {
   data: PageData;
@@ -31,4 +32,6 @@ const page: Template = ({
     </div>
   );
 };
-export default page;
+
+export const render = (data: any) => renderToStaticMarkup(<Page data={data}/>)
+export default Page;
