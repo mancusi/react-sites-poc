@@ -1,0 +1,6 @@
+import React from "react";
+import { hydrate } from "react-dom";
+import Page from "{{importPath}}";
+
+const data = (window as any).data;
+hydrate(<Page data={data} />, document.getElementById("reactele"));

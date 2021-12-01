@@ -14,5 +14,5 @@
       "*": ["node_modules/*"]
     }
   },
-  "include": ["src/**/*", "data/generateData.ts"]
+  "include": ["src/**/*", "data/generateData.ts", "types/types.ts"]
 }

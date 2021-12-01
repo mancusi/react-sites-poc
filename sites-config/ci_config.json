@@ -3,11 +3,14 @@
    		"assets": [
       		{
         		"root": "assets"
+      		},
+      		{
+        		"root": "public"
       		}
     	],
 		"reactTemplates": [
 	    	{
-	    		"root": "dist/templates",
+	    		"root": "dist/src/templates",
 	    		"pattern": "*.js"
 	    	}
 		]

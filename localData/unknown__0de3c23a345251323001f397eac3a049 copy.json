@@ -1,0 +1,6 @@
+{
+  "description": "A brand new test entity.",
+  "id": 12345,
+  "externalEntityId": "entity-12345",
+  "name": "Test Entity"
+}

@@ -1,0 +1,22 @@
+{
+    "features": [
+        {
+            "name": "eps",
+            "streamId": "unknown",
+            "templateType": "REACT",
+            "entityPageSet": {
+                "html_template": "eps.js",
+                "url_template": "eps.js"
+            }
+        },
+        {
+            "name": "eps-with-hydration",
+            "streamId": "unknown",
+            "templateType": "REACT",
+            "entityPageSet": {
+                "html_template": "eps-with-hydration.js",
+                "url_template": "eps-with-hydration.js"
+            }
+        }
+    ]
+}
